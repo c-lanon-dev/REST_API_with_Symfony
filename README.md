@@ -5,7 +5,7 @@
 ## Installation
 ```Bash
 git clone https://github.com/c-lanon-dev/REST_API_with_Symfony.git
-cd p7
+cd REST_API_with_Symfony
 chmod +x run.sh config.sh config_db.sh
 ./run.sh
 ```
@@ -33,7 +33,7 @@ You can automatically config the host for all test :
 ## Other
 If you want renew JWT SSL keys :
 ```Bash
-./p7/docker/sbash.sh
-cd p7
+./REST_API_with_Symfony/docker/sbash.sh
+cd REST_API_with_Symfony
 php bin/console lexik:jwt:generate-keypair --overwrite
 ```
