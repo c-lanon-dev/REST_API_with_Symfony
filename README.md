@@ -4,7 +4,7 @@
 
 ## Installation
 ```Bash
-git clone https://github.com/clopenclassrooms/p7.git
+git clone https://github.com/c-lanon-dev/REST_API_with_Symfony.git
 cd p7
 chmod +x run.sh config.sh config_db.sh
 ./run.sh
@@ -15,20 +15,20 @@ when all containers is launch (Ony for first launch)
 ```
 
 ## REST API documentation
-You can find the complete REST API documentation [here](https://github.com/clopenclassrooms/p7/blob/main/Documentation/documentation.md)
+You can find the complete REST API documentation [here](https://github.com/c-lanon-dev/REST_API_with_Symfony/blob/main/Documentation/documentation.md)
 
 ## Test REST API
-You can use this [Postman file](https://github.com/clopenclassrooms/p7/blob/main/Documentation/Postman.json) for test the REST API.
+You can use this [Postman file](https://github.com/c-lanon-dev/REST_API_with_Symfony/blob/main/Documentation/Postman.json) for test the REST API.
 
 The token is automatically add from the "GET /api/login" resquest : 
-![](https://github.com/clopenclassrooms/p7/blob/main/Documentation/img/bearer1.png)
+![](https://github.com/c-lanon-dev/REST_API_with_Symfony/blob/main/Documentation/img/bearer1.png)
 
 You can manually add the token : 
-![](https://github.com/clopenclassrooms/p7/blob/main/Documentation/img/bearer2.png)
+![](https://github.com/c-lanon-dev/REST_API_with_Symfony/blob/main/Documentation/img/bearer2.png)
 
 You can automatically config the host for all test :
 
-![](https://github.com/clopenclassrooms/p7/blob/main/Documentation/img/config_host.png)
+![](https://github.com/c-lanon-dev/REST_API_with_Symfony/blob/main/Documentation/img/config_host.png)
 
 ## Other
 If you want renew JWT SSL keys :
